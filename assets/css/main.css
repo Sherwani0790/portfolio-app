@@ -1,15 +1,4 @@
-/**
-* Template Name: PhotoFolio
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -36,6 +25,22 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
   background-color: #000;
+}
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+body::-webkit-scrollbar-track {
+  background: #eaecf0;
+  border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #32cf93;
+  border-radius: 5px;
+  opacity: 0.3;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #32cf93;
 }
 
 a {
